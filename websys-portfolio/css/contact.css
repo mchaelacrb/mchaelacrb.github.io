@@ -1,0 +1,134 @@
+
+body {
+  padding: 0px;
+  margin: 0;
+}
+#contact {
+   height: 100vh;
+    background-color: #0d0e16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+.contact-form {
+    max-width: 300px;
+    margin: 0;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #212432;
+    box-sizing: border-box;
+  background-color:#0d0e16;
+  color: aliceblue;
+  }
+  .contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  #qr {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding-right: 80px;
+}
+#qr-con {
+  padding-bottom: 30px;
+}
+#qr p {
+  margin: 0;
+}
+#img img {
+  padding-right: 20px;
+  height: 25px;
+  width: 25px;
+}
+
+#lets {
+font-size: 30px;
+font-family: monospace;
+color: aliceblue;
+font-weight: 100;
+margin: 20px 0px;
+}
+#feel {
+font-size: 12px;
+color: rgb(224, 224, 224);
+padding-bottom: 35px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#details  {
+ font-size: 13px;
+ color: #cdcdcd;
+ font-family: monospace;
+ padding-bottom: 20px;
+}
+
+#qr-con img {
+  height: 200px;
+  width: 200px;
+}
+.soc-con {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+#left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 20px;
+}
+
+.label::placeholder{
+  color:aliceblue;
+}
+@media (max-width :393px) {
+ #contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ }
+
+ .contact-form, #qr {
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 0;
+ }
+ #left {
+  padding-left: 30px;
+ }
+ 
+}
+
+footer{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  color: #4f29a6;
+  font-family: monospace;
+  padding-top: 20px;
+  padding-bottom:20px;
+  
+  font-size: smaller;
+}
