@@ -27,7 +27,11 @@
 }
 
 
-
+a {
+  text-decoration: none; /* Removes underline from links */
+  border: none; /* Removes any border */
+  outline: none; /* Removes focus outline */
+}
   
 
   .home-container {
