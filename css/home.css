@@ -27,12 +27,6 @@
 }
 
 
-a {
-  text-decoration: none; /* Removes underline from links */
-  border: none; /* Removes any border */
-  outline: none; /* Removes focus outline */
-}
-  
 
   .home-container {
     position: relative;
@@ -71,6 +65,10 @@ a {
   padding-right: 40px;
   height: 25px;
   width: 25px;
+}
+#img {
+  border: none; /* Removes any border */
+  outline: none; /* Removes any outline */
 }
 .soc-con a {
   color: chartreuse;
